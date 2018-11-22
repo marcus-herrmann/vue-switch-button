@@ -4,6 +4,8 @@
 
 Accessible toggle switch button, see https://inclusive-components.design/toggle-button/
 
+![Screenshot](https://i.imgur.com/6tI3r2i.png)
+
 [**Demo**](https://codesandbox.io/s/24pq29w23p)
 
 ## Installation:
