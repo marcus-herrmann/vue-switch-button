@@ -1,5 +1,5 @@
 {
-  "name": "vue-toggle-switch",
+  "name": "vue-switch-button",
   "version": "0.1.0",
   "description": "Accessible toggle button component",
   "main": "src/main.js",

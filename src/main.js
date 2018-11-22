@@ -1,2 +1,2 @@
-import ToggleSwitch from './components/ToggleSwitch.vue'
-export default ToggleSwitch;
+import SwitchButton from './components/SwitchButton.vue'
+export default SwitchButton;

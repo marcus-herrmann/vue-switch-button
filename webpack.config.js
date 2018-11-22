@@ -15,7 +15,7 @@ module.exports = {
     context: __dirname,
     output: {
         path: path.resolve(__dirname, "./dist"),
-        filename: "vue-toggle-switch.js"
+        filename: "vue-switch-button.js"
     },
     plugins: [new VueLoaderPlugin()]
 };
