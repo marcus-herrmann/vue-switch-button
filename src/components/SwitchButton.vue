@@ -40,7 +40,7 @@
         padding: 0.25rem 0.5rem;
         border: 0.25rem solid;
         border-radius: 0.25rem;
-        font-size: inherit;
+        font: inherit;
     }
 
     [aria-checked] span {

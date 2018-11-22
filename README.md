@@ -6,7 +6,7 @@ Accessible toggle switch button, see https://inclusive-components.design/toggle-
 
 ![Screenshot](https://i.imgur.com/6tI3r2i.png)
 
-[**Demo**](https://codesandbox.io/s/24pq29w23p)
+[**Demo**](https://codesandbox.io/s/2v7927pjjr)
 
 ## Installation:
 ```bash
