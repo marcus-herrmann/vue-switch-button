@@ -15,17 +15,17 @@ npm install vue-switch-button --save
 
 ## Usage
 ```xml
-<toggle-switch value="true"> 
+<switch-button value="true"> 
     Notify by mounted messenger
-</toggle-switch>
+</switch-button>
 
-<toggle-switch v-model="email">
+<switch-button v-model="email">
     Notify by email
-</toggle-switch>
+</switch-button>
 
-<toggle-switch v-model="pidgeon" on-label="Yes" off-label="No">
+<switch-button v-model="pidgeon" on-label="Yes" off-label="No">
   Notify by pidgeon
-</toggle-switch>
+</switch-button>
 
 ```
 
