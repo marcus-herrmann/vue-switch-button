@@ -41,4 +41,4 @@ npm install vue-switch-button --save
 
 | Name   | Description              |
 | ---    | ---                      |
-| change | Triggered whenever state of the component changes. |
+| click | Triggered whenever state of the component changes. |

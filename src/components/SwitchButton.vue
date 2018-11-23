@@ -23,7 +23,7 @@
         props: ["value", "onLabel", "offLabel"],
         methods: {
             toggle() {
-                this.$emit("input", !this.isChecked);
+                this.$emit("click", !this.isChecked);
                 this.isChecked = !this.isChecked;
             }
         },
