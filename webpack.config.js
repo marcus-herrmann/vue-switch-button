@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const nodeExternals = require('webpack-node-externals');
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
 module.exports = {
@@ -15,9 +16,13 @@ module.exports = {
     context: __dirname,
     output: {
         path: path.resolve(__dirname, "./dist"),
-        filename: "vue-switch-button.js"
+        filename: "vue-switch-button.js",
+        devtoolModuleFilenameTemplate: '[absolute-resource-path]',
+        devtoolFallbackModuleFilenameTemplate: '[absolute-resource-path]?[hash]'
     },
-    plugins: [new VueLoaderPlugin()]
+    plugins: [new VueLoaderPlugin()],
+    externals: [nodeExternals()],
+    devtool: 'inline-cheap-module-source-map'
 };
 
 if (process.env.NODE_ENV === "production") {
