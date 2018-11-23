@@ -7,7 +7,7 @@
                 :aria-labelledby="id"
                 @click="toggle"
         >
-            <span>{{ onLabel || "on" }}</span> <span>{{ offLabel || "off" }}</span>
+            <span>{{ onLabel }}</span> <span>{{ offLabel }}</span>
         </button>
     </div>
 </template>
@@ -17,10 +17,23 @@
         data: function() {
             return {
                 id: null,
-                isChecked: this.value || false
+                isChecked: this.value
             };
         },
-        props: ["value", "onLabel", "offLabel"],
+        props: {
+            value: {
+                type: Boolean,
+                default: false
+            },
+            onLabel: {
+                type: String,
+                default: "on"
+            },
+            offLabel: {
+                type: String,
+                default: "off"
+            }
+        },
         methods: {
             toggle() {
                 this.$emit("click", !this.isChecked);
