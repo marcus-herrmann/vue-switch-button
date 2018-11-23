@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/vue-switch-button.svg)](https://badge.fury.io/js/vue-switch-button)
+[![Build Status](https://travis-ci.org/marcus-herrmann/vue-switch-button.svg?branch=master)](https://travis-ci.org/marcus-herrmann/vue-switch-button)
 
 # Vue Switch Button
 
